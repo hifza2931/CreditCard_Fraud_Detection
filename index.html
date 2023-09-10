@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fraud Detection</title>
+</head>
+<body>
+    <h1>Fraud Detection</h1>
+    <form method="POST" action="/predict">
+        <!-- Input field for 'Amount' -->
+        <label for="Amount">Amount:</label>
+        <input type="text" name="Amount" id="Amount" placeholder="Enter the Amount" required><br>
+
+        <!-- Input field for 'V1' -->
+        <label for="V1">V1:</label>
+        <input type="text" name="V1" id="V1" placeholder="Enter V1" required><br>
+
+        <!-- Repeat similar input fields for 'V2' to 'V28' -->
+        <label for="V2">V2:</label>
+        <input type="text" name="V2" id="V2" placeholder="Enter V2" required><br>
+
+        <label for="V3">V3:</label>
+        <input type="text" name="V3" id="V3" placeholder="Enter V3" required><br>
+
+        <label for="V4">V4:</label>
+        <input type="text" name="V4" id="V4" placeholder="Enter V4" required><br>
+
+        <label for="V5">V5:</label>
+        <input type="text" name="V5" id="V5" placeholder="Enter V5" required><br>
+
+        <label for="V6">V6:</label>
+        <input type="text" name="V6" id="V6" placeholder="Enter V6" required><br>
+        
+        <label for="V7">V7:</label>
+        <input type="text" name="V7" id="V7" placeholder="Enter V7" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
